@@ -19,7 +19,6 @@ body{
   padding: 0 75px;
   line-height: 30px;
   text-decoration: none;
-  color: white;
 }
 
 .tophead-right .head-links li{
@@ -35,7 +34,6 @@ body{
   padding: 0 10px;
   line-height: 30px;
   text-decoration: none;
-  color: white;
 }
 
 
@@ -106,8 +104,6 @@ body{
   #top-right .login button{
     width: 100%;
     align-items: center;
-    margin: 3px 3px 15px 7px;
-    padding: 4px 15px 4px 15px;
     border-radius: 20px;
     background-color: #0338AD;
     color: white;
@@ -117,8 +113,6 @@ body{
   #top-right .register button{
     width: 100%;
     align-items: center;
-    margin: 3px 3px 15px 15px;
-    padding: 4px 15px 4px 15px;
     border-radius: 20px;
     background-color: #0338AD;
     color: white;
