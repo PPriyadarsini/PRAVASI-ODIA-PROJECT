@@ -21,6 +21,10 @@ body{
   text-decoration: none;
 }
 
+.header h1{
+  font-weight: 600;
+}
+
 .tophead-right .head-links li{
   display: inline-block;
   border-right: 0.5px solid #000;
@@ -158,6 +162,7 @@ body{
 }
 #middlec .side1 h2,p{
   text-align: center;  
+
 }
 #middlec .side1 button{
   position: relative;
@@ -184,11 +189,25 @@ body{
   align-items: center;
 }
 
+#middlec .blog p{
+  text-align: justify;
+  margin: 3px 5px 3px 5px;
+}
+
 
 #middlec .side2{
   width: 18%;
    background-color: pink; 
   align-items: center;
+}
+
+#middlec .side2 h2{
+  text-align: center;
+  margin-top: 20px;
+}
+
+#middlec .side2 p{
+  margin: 3px 5px 3px 5px;
 }
 
 
