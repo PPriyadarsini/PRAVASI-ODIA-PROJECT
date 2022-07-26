@@ -144,7 +144,7 @@ body{
 }
 #middlec .side1{
   width: 18%;
-  background-color: pink;
+  /* background-color: pink; */
   padding-top:20px;
   
 }
@@ -175,7 +175,7 @@ body{
 
 #middlec .side2{
   width: 18%;
-  background-color: rgb(205, 255, 192);
+  /* background-color: rgb(205, 255, 192); */
   align-items: center;
 }
 
