@@ -101,21 +101,25 @@ body{
 
 
   }
-  #top-right .login{
-    width: 50%;
-    
-    align-items: center;
-  }
-  #top-right .register{
-    width: 50%;
-    
-    align-items: center;
-    
-  }
-  .right button{
+  #top-right .login button{
     width: 100%;
-    padding: 0.7em;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #0338AD;
+    color: white;
+    border: none;
   }
+
+  #top-right .register button{
+    width: 100%;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #0338AD;
+    color: white;
+    border: none;
+    
+  }
+  
   .right .fund-raiser{
     font-size: 23px;
     position: relative;
@@ -153,18 +157,22 @@ body{
 }
 #middlec .side1 button{
   position: relative;
-  left:80px;
+  left:60px;
   margin:20px;
   height: 40px;
   width: 80px;
+  padding-left: 9px;
+  background-color: red;
+  color: white;
 }
 
 #middlec .side1 img{
   padding-top: 25px;
   padding-bottom:25px;
   position: relative;
-  left:80px;
+  left:20px;
   height: 300px;
+  width: 200px;
 }
 
 #middlec .blog{
