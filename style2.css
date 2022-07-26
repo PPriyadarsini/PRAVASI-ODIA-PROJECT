@@ -104,7 +104,8 @@ body{
   #top-right .login button{
     width: 100%;
     align-items: center;
-    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 2px;
     background-color: #0338AD;
     color: white;
     border: none;
@@ -113,7 +114,8 @@ body{
   #top-right .register button{
     width: 100%;
     align-items: center;
-    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
     background-color: #0338AD;
     color: white;
     border: none;
