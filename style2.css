@@ -157,18 +157,22 @@ body{
 }
 #middlec .side1 button{
   position: relative;
-  left:80px;
+  left:60px;
   margin:20px;
   height: 40px;
   width: 80px;
+  padding-left: 9px;
+  background-color: red;
+  color: white;
 }
 
 #middlec .side1 img{
   padding-top: 25px;
   padding-bottom:25px;
   position: relative;
-  left:80px;
+  left:20px;
   height: 300px;
+  width: 200px;
 }
 
 #middlec .blog{
