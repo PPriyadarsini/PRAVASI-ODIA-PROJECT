@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+body{
+  overflow: hidden;
+}
+
 .tnav{
   background-color: #e62d2d;
   height: 30px;
