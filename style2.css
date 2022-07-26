@@ -139,19 +139,18 @@ body{
   display: flex;    
 }
 #middlec .side1{
-  width: 20%;
+  width: 18%;
   background-color: pink;
   align-items: center;
 }
 #middlec .blog{
   width: 65%;
-  background-color: rgb(32, 22, 214);
   align-items: center;
 }
 
 
 #middlec .side2{
-  width: 15%;
+  width: 18%;
   background-color: rgb(205, 255, 192);
   align-items: center;
 }
