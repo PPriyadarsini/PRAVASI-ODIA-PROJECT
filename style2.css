@@ -4,11 +4,11 @@
 }
 
 body{
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .tnav{
-  background-color: #e62d2d;
+  background-color: #e0dbdb;
   height: 30px;
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
@@ -38,7 +38,7 @@ body{
 
 
 
-/**************************************************************************************************/
+/****************************************TOP2 PART**********************************************************/
 #cont{
     display: flex;
 }
@@ -54,12 +54,12 @@ body{
 }
 
 #cont .mid{
-    width:75%; 
+    width:80%; 
 }
 #cont .mid .header {
   background-color: #F1F1F1;
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 50px;
   padding-top: 80px;
   
 }
@@ -90,8 +90,8 @@ body{
 
 
 #cont .right{
-    background-color: yellow;
-    width:15%;
+    background-color: #f1f1f1;
+    width:10%;
 }
 
 
@@ -101,34 +101,42 @@ body{
 
 
   }
-  #top-right .login{
-    width: 50%;
-    
-    align-items: center;
-  }
-  #top-right .register{
-    width: 50%;
-    
-    align-items: center;
-    
-  }
-  .right button{
+  #top-right .login button{
     width: 100%;
-    padding: 0.7em;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #0338AD;
+    color: white;
+    border: none;
   }
+
+  #top-right .register button{
+    width: 100%;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #0338AD;
+    color: white;
+    border: none;
+    
+  }
+  
   .right .fund-raiser{
-    font-size: 30px;
+    font-size: 23px;
     position: relative;
-    left: 50px;
+    left: 17px;
     margin-bottom: 20px;
+    font-weight: bold;
   }
   .right .fund-raiser a{
     align-content:center;
+    text-decoration: none;
   }
   .right .call-us a{
-    font-size: 30px;
+    font-size: 23px;
     position: relative;
-    left: 65px;
+    left: 40px;
+    text-decoration: none;
+    font-weight: bold;
   }
 
 
@@ -139,31 +147,122 @@ body{
   display: flex;    
 }
 #middlec .side1{
-  width: 30%;
+  width: 18%;
   background-color: pink;
-  align-items: center;
+  padding-top:20px;
+  
 }
+#middlec .side1 h2,p{
+  text-align: center;  
+}
+#middlec .side1 button{
+  position: relative;
+  left:60px;
+  margin:20px;
+  height: 40px;
+  width: 80px;
+  padding-left: 9px;
+  background-color: red;
+  color: white;
+}
+
+#middlec .side1 img{
+  padding-top: 25px;
+  padding-bottom:25px;
+  position: relative;
+  left:20px;
+  height: 300px;
+  width: 200px;
+}
+
 #middlec .blog{
-  width: 45%;
-  background-color: rgb(32, 22, 214);
+  width: 65%;
   align-items: center;
 }
+
+
 #middlec .side2{
-  width: 25%;
+  width: 18%;
   background-color: rgb(205, 255, 192);
   align-items: center;
 }
 
-   
-  /* Left and right column */
 
-   
-  /* Middle column */
  
- /***************************************************************************************/
-  .footer {
-    background-color: #111;
-    color:#F1F1F1;
-    text-align: center;
-    padding: 10px;
+ /*****************************FOOTER**********************************************************/
+
+ .bg-footer {
+  background-color: #33383c;
+  padding: 50px 0 30px;
+}
+.footer-heading {
+  letter-spacing: 2px;
+}
+
+.footer-link a {
+  color: #acacac;
+  line-height: 40px;
+  font-size: 14px;
+  transition: all 0.5s;
+}
+
+.footer-link a:hover {
+  color: #1bbc9b;
+}
+
+.contact-info {
+  color: #acacac;
+  font-size: 14px;
+  position: relative;
+  right: 100px;
+}
+.footer-contact{
+  position: relative;
+  left: 60px;
+}
+.footer-social-icon {
+  padding-top: 5px;
+  font-size: 25px;
+  height: 34px;
+  width: 34px;
+  line-height: 34px;
+  border-radius: 3px;
+  text-align: center;
+  display: inline-block;
+}
+
+.facebook {
+  background-color: #4e71a8;
+  color: #ffffff;
+}
+
+.twitter {
+  background-color: #55acee;
+  color: #ffffff;
+}
+
+.google {
+  background-color: #d6492f;
+  color: #ffffff;
+}
+
+
+.footer-alt {
+  color: #acacac;
+}
+
+.footer-heading {
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.footer-heading:after {
+  content: '';
+  width: 25px;
+  border-bottom: 1px solid #FFF;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  border-bottom: 1px solid #1bbc9b;
 }
