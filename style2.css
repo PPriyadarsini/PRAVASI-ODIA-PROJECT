@@ -95,13 +95,8 @@ body{
 }
 
 
-  #top-right{
-    display: flex;
-    margin-bottom: 20px;
-
-
-  }
-  #top-right .login button{
+  
+   .login button{
     width: 100%;
     align-items: center;
     margin-top: 5px;
@@ -111,7 +106,7 @@ body{
     border: none;
   }
 
-  #top-right .register button{
+  .register button{
     width: 100%;
     align-items: center;
     margin-top: 5px;
@@ -122,18 +117,16 @@ body{
     
   }
   
-  .right .fund-raiser{
-    font-size: 23px;
-    position: relative;
-    left: 17px;
-    top:25px;
-    margin-bottom: 20px;
-    font-weight: bold;
-  }
   .right .fund-raiser button{
-    align-content:center;
-    text-decoration: none;
+    width: 100%;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: #0338AD;
+    color: white;
+    border: none;
   }
+
   .right .call-us button{
     font-size: 23px;
     position: relative;
@@ -141,6 +134,7 @@ body{
     top: 17px;
     text-decoration: none;
     font-weight: bold;
+    background-color: red;
   }
 
 
