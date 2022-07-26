@@ -4,7 +4,7 @@
 }
 
 body{
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .tnav{
@@ -148,6 +148,8 @@ body{
   background-color: rgb(32, 22, 214);
   align-items: center;
 }
+
+
 #middlec .side2{
   width: 15%;
   background-color: rgb(205, 255, 192);
