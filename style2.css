@@ -1,0 +1,165 @@
+*{
+    text-decoration: none;
+    margin: 0;
+}
+
+.tnav{
+  background-color: #e62d2d;
+  height: 30px;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+.tophead-left a{
+  padding: 0 75px;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+.tophead-right .head-links li{
+  display: inline-block;
+  border-right: 0.5px solid #000;
+}
+
+.head-links{
+  padding-left: 52rem;
+}
+
+.head-links a{
+  padding: 0 10px;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+
+
+/**************************************************************************************************/
+#cont{
+    display: flex;
+}
+
+#cont .left{
+    background-color: #F1F1F1;
+    width:10%;
+}
+#cont .left img{
+  margin-top: 20px;
+  height: 160px;
+  width: 150px;
+}
+
+#cont .mid{
+    width:75%; 
+}
+#cont .mid .header {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 80px;
+  
+}
+
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  justify-content: space-around;
+}   
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  
+} 
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+#cont .right{
+    background-color: yellow;
+    width:15%;
+}
+
+
+  #top-right{
+    display: flex;
+    margin-bottom: 20px;
+
+
+  }
+  #top-right .login{
+    width: 50%;
+    
+    align-items: center;
+  }
+  #top-right .register{
+    width: 50%;
+    
+    align-items: center;
+    
+  }
+  .right button{
+    width: 100%;
+    padding: 0.7em;
+  }
+  .right .fund-raiser{
+    font-size: 30px;
+    position: relative;
+    left: 50px;
+    margin-bottom: 20px;
+  }
+  .right .fund-raiser a{
+    align-content:center;
+  }
+  .right .call-us a{
+    font-size: 30px;
+    position: relative;
+    left: 65px;
+  }
+
+
+/********************************************************************************/
+  
+/*BLOG STYLING*/ 
+#middlec{
+  display: flex;    
+}
+#middlec .side1{
+  width: 30%;
+  background-color: pink;
+  align-items: center;
+}
+#middlec .blog{
+  width: 45%;
+  background-color: rgb(32, 22, 214);
+  align-items: center;
+}
+#middlec .side2{
+  width: 25%;
+  background-color: rgb(205, 255, 192);
+  align-items: center;
+}
+
+   
+  /* Left and right column */
+
+   
+  /* Middle column */
+ 
+ /***************************************************************************************/
+  .footer {
+    background-color: #111;
+    color:#F1F1F1;
+    text-align: center;
+    padding: 10px;
+}
