@@ -8,7 +8,7 @@ body{
 }
 
 .tnav{
-  background-color: #33383c;
+  background-color: #111;
   height: 30px;
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
@@ -44,7 +44,7 @@ body{
 }
 
 #cont .left{
-    background-color: #F1F1F1;
+    background-color:hwb(0 100% 0%);;
     width:10%;
 }
 #cont .left img{
@@ -57,17 +57,23 @@ body{
     width:80%; 
 }
 #cont .mid .header {
-  background-color: orange;
+  background-color: hwb(0 100% 0%);
   text-align: center;
   padding-bottom: 40px;
   padding-top: 30px;
   
 }
-
+#cont .header h1{
+  color:#ff000d;
+  font-weight: bolder;
+  font-size: 48px;
+  padding-top: 5px;
+}
 /* The navbar container */
 .topnav {
   overflow: hidden;
-  background-color: green;
+  /* background-color: #0338AD; */
+  background-image: linear-gradient(to right,rgb(2, 2, 56), rgb(39, 187, 224));
   display: flex;
   justify-content: space-around;
 }   
@@ -75,7 +81,7 @@ body{
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: hwb(0 100% 0%);
   text-align: center;
   padding: 10px 16px;
   text-decoration: none;
@@ -84,13 +90,13 @@ body{
 
 /* Links - change color on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: rgb(230, 239, 241);
   color: black;
 }
 
 
 #cont .right{
-    background-color: #f1f1f1;
+    background-color: hwb(0 100% 0%);;
     width:10%;
 }
 
@@ -101,7 +107,7 @@ body{
     align-items: center;
     margin-top: 5px;
     margin-left: 2px;
-    background-color: #0338AD;
+    background-color: rgb(2, 2, 56);
     color: white;
     border: none;
   }
@@ -111,7 +117,7 @@ body{
     align-items: center;
     margin-top: 5px;
     margin-left: 5px;
-    background-color: #0338AD;
+    background-color: rgb(2, 2, 56);
     color: white;
     border: none;
     
@@ -122,7 +128,7 @@ body{
     align-items: center;
     margin-top: 5px;
     margin-left: 5px;
-    background-color: #0338AD;
+    background-color: rgb(2, 2, 56);
     color: white;
     border: none;
   }
@@ -146,7 +152,7 @@ body{
 }
 #middlec .side1{
   width: 18%;
-   background-color: green; 
+   background-image: linear-gradient(to bottom,rgb(39, 187, 224), rgb(2, 2, 56));  
   padding-top:20px;
   
 }
@@ -225,7 +231,7 @@ body{
 }
 #middlec .side2{
   width: 18%;
-   background-color: green; 
+   background-image: linear-gradient(to bottom,rgb(39, 187, 224), rgb(2, 2, 56)); 
   align-items: center;
   padding: 20px;
 }
@@ -235,7 +241,7 @@ body{
  /*****************************FOOTER**********************************************************/
 
  .bg-footer {
-  background-color: #33383c;
+  background-color: #111;
   padding: 50px 0 30px;
 }
 .footer-heading {
