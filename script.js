@@ -1,14 +1,13 @@
-// var btn = $('#button');
+type="text/javascript">
+    window.addEventListener('scroll', function () {
+        var scroll = document.querySelector('#scrollUpBtn');
+        scroll.classList.toggle("active", window.scrollY > 100)
+    })
 
-// $(window).scroll(function() {
-//   if ($(window).scrollTop() > 300) {
-//     btn.addClass('show');
-//   } else {
-//     btn.removeClass('show');
-//   }
-// });
+function scrollUpBtn() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    })
+}
 
-// btn.on('click', function(e) {
-//   e.preventDefault();
-//   $('html, body').animate({scrollTop:0}, '300');
-// });
