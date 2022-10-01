@@ -69,31 +69,45 @@ body{
   font-size: 48px;
   padding-top: 5px;
 }
-/* The navbar container */
-.topnav {
+ /*The navbar container */
+.topnav ul{
   overflow: hidden;
   /* background-color: #0338AD; */
   background-image: linear-gradient(to right,rgb(2, 2, 56), rgb(39, 187, 224));
   display: flex;
   justify-content: space-around;
-}   
+  list-style: none;
+}
 /* Navbar links */
-.topnav a {
+.topnav ul li a{
   float: left;
   display: block;
   color: hwb(0 100% 0%);
   text-align: center;
   padding: 10px 16px;
   text-decoration: none;
-  
-} 
+}
 
 /* Links - change color on hover */
-.topnav a:hover {
+.topnav ul li a:hover {
   background-color: rgb(230, 239, 241);
   color: black;
 }
 
+.topnav ul li ul{
+  display: flex;
+  flex-direction: column;
+}
+
+/*Dropdown styling*/
+.topnav ul li ul li  {
+  display: none;
+}
+
+.topnav ul li:hover ul li  {
+  display: grid;
+  flex-direction: column;
+}
 
 #cont .right{
     background-color: hwb(0 100% 0%);;

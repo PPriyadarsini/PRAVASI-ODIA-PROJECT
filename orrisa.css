@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    background-color: #222;
+}
+
+header{
+    text-align: center;
+    color:white;
+    padding: 10px;
+}
+
+ul {
+    color: white;
+}
+
+/* Footer */
+
+.footer{
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+}
+.footer p {
+    margin: 10px 0;
+    font-family: 'Raleway', 'Lucida Sans Regular', 'Lucida  Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer .fa-heart{
+    color: red;
+}
+
+
+.footer a {
+    color: #3c97bf;
+    text-decoration: none;
+    margin-right:5px;
+}
