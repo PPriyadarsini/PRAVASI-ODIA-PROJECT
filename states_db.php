@@ -2,8 +2,8 @@
 include("db_conn.php");
 
 $db= $conn;
-$tableName="orissa_ngo";
-$columns= ['ngo_name','regno_city_state','address','working_sectors'];
+$tableName="states";
+$columns= ['state'];
 $fetchData = fetch_data($db, $tableName, $columns);
 
 function fetch_data($db, $tableName, $columns){
@@ -16,7 +16,7 @@ function fetch_data($db, $tableName, $columns){
 }else{
 
 $columnName = implode(", ", $columns);
-$query = "SELECT ".$columnName." FROM " .$tableName." ORDER BY ngo_name";
+$query = "SELECT ".$columnName." FROM " .$tableName." ORDER BY state";
 $result = $db->query($query);
 
 if($result== true){ 
