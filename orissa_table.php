@@ -29,7 +29,7 @@ include("orissa_db.php");
           if(is_array($fetchData)){      
           $id=1;
           foreach($fetchData as $data){
-        ?>
+      ?>
           <tr>
           <td><?php echo $id; ?></td>
           <td><?php echo $data['ngo_name']??''; ?></td>
@@ -52,14 +52,6 @@ include("orissa_db.php");
     </div>
     </div>
     </div>
-    <!-- Footer -->
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <div class="footer">
-        <p>
-            Created with <i class="fa fa-heart"></i> by
-            <a target="_blank" href="index.html">Pravasi Odia</a>
-
-        </p>
-    </div>
+    
   </body>
 </html>
