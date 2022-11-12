@@ -107,10 +107,11 @@ body{
   display: none;
 }
 
-.topnav ul li:hover ul li  {
+.topnav ul li:hover ul li {
   display: grid;
   flex-direction: column;
 }
+
 
 #cont .right{
     background-color: hwb(0 100% 0%);;

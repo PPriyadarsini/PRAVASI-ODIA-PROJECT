@@ -1,7 +1,7 @@
 <?php
 $hostName = "localhost";
 $userName = "root";
-$password = "12345PRI";
+$password = "12345ROOT";
 $databaseName = "pravasi_ngo_db";
 $conn = new mysqli($hostName, $userName, $password, $databaseName);
 // Check connection
