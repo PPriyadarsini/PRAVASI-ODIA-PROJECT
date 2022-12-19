@@ -77,6 +77,7 @@ body{
   display: flex;
   justify-content: space-around;
   list-style: none;
+  /*height: 45px;*/
 }
 /* Navbar links */
 .topnav ul li a{
@@ -107,9 +108,15 @@ body{
   display: none;
 }
 
+<<<<<<< HEAD
+.topnav ul li:hover ul li  {
+  display: flex;
+=======
 .topnav ul li:hover ul li {
   display: grid;
+>>>>>>> origin/main
   flex-direction: column;
+  color: black;
 }
 
 
