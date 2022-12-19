@@ -108,11 +108,17 @@ body{
   display: none;
 }
 
+<<<<<<< HEAD
 .topnav ul li:hover ul li  {
   display: flex;
+=======
+.topnav ul li:hover ul li {
+  display: grid;
+>>>>>>> origin/main
   flex-direction: column;
   color: black;
 }
+
 
 #cont .right{
     background-color: hwb(0 100% 0%);;
