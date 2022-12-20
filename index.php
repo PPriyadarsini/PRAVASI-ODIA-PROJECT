@@ -91,7 +91,7 @@ include("states_db.php");
                 </div>
                 
                 <div class="fund-raiser">
-                    <button >Fund Raiser</button>
+                    <button><a href="fundraiser_events.html" class="main-links">Fund Raiser</a></button>
                 </div>
                 <div class="call-us">
                     <button >Call-Us</button>
@@ -107,7 +107,6 @@ include("states_db.php");
             <p><i>for the upliftment of society</i></p>
              <img src="images/sideimg.jpeg" alt="" width="40%" height="170px">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
-
             <button class="btn btn-rounded"  onclick="functionName()">DONATE</button> 
             </div>
             
