@@ -151,6 +151,11 @@ body{
     border: none;
   }
 
+  .main-links{
+    color: white;
+    text-decoration: none;
+  }
+
   .right .call-us button{
     font-size: 23px;
     position: relative;
